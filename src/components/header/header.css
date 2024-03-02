@@ -1,0 +1,19 @@
+header {
+  background: #fff;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  position: fixed;
+  z-index: 9999;
+}
+/* nav */
+nav ul {
+  display: flex;
+}
+nav a {
+  text-transform: capitalize;
+  margin-right: 30px;
+  color: #000;
+}
