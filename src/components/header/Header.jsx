@@ -20,7 +20,11 @@ export const Header = () => {
             <ul>
               {nav.map((link) => (
                 <li key={link.id}>
-                  <Link to={link.url}>{link.text}</Link>
+                  {link.text.split(" ").map((word, index) => (
+                    <span className="word" key={index}>
+                      <Link to={link.url}>{word}</Link>
+                    </span>
+                  ))}
                 </li>
               ))}
             </ul>
