@@ -8,7 +8,8 @@ header {
   position: fixed;
   z-index: 9999;
 }
-/* nav */
+
+
 nav ul {
   display: flex;
 }
@@ -22,6 +23,6 @@ nav a {
   padding: 0 5px;
 }
 
-.header .word:hover {
-  background-color: #e1dbdb; /* Darken background color on hover */
+.header .word:hover a {
+  color: #181818; 
 }

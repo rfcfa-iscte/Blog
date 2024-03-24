@@ -51,7 +51,7 @@ export const Category = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      // Trigger the next slide every 10 seconds
+      // Trigger the next slide every 5 seconds
       if (sliderRef.current) {
         sliderRef.current.slickNext();
       }

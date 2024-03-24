@@ -8,6 +8,8 @@ import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
 import { Blog } from "./pages/blog/Blog"
 import { Contact } from "./pages/contact/Contact"
+import { Projects } from "./pages/projects/Projects"
+import { ProjectsPages } from "./pages/projects/ProjectsPages"
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/Blog' component={Blog} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/projects/:id' component={ProjectsPages} />
           <Route exact path='/details/:id' component={DetailsPages} />
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
