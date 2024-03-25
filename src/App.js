@@ -10,6 +10,7 @@ import { Blog } from "./pages/blog/Blog"
 import { Contact } from "./pages/contact/Contact"
 import { Projects } from "./pages/projects/Projects"
 import { ProjectsPages } from "./pages/projects/ProjectsPages"
+import { BlogPages } from "./pages/blog/BlogPages"
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
           <Route exact path='/Blog' component={Blog} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/projects/:id' component={ProjectsPages} />
-          <Route exact path='/details/:id' component={DetailsPages} />
+          <Route exact path='/blog/:id' component={BlogPages} />
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
           <Route exact path='/contact' component={Contact} />

@@ -69,7 +69,7 @@ export const Category = () => {
           <Slider ref={sliderRef} {...settings}>
             {category.map((item) => (
               <div className="boxs" key={item.id}>
-                <div className="box">
+                <li className="box" onClick={() => window.open("https://www.youtube.com/channel/UCITeWt-qhxioVw_A29Unbow", "_blank")}>
                   <img
                     src={item.cover}
                     alt="cover"
@@ -79,7 +79,7 @@ export const Category = () => {
                     <h4>{item.category}</h4>
                     <p>{item.title}</p>
                   </div>
-                </div>
+                </li>
               </div>
             ))}
           </Slider>

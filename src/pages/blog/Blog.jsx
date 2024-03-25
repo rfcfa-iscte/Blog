@@ -1,6 +1,6 @@
-import React from "react"
-import { Card } from "../../components/blog/Card"
-import { Category } from "../../components/category/Category"
+import React from "react";
+import { Card } from "../../components/blog/Card";
+import { Category } from "../../components/category/Category";
 
 export const Blog = () => {
   return (
@@ -8,5 +8,5 @@ export const Blog = () => {
       <Category />
       <Card />
     </>
-  )
-}
+  );
+};

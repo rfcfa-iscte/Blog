@@ -64,6 +64,7 @@ export const blog = [
     desc: "Texto com resumo do que vai estar neste blog.",
     category: "Movie Review",
     cover: "../images/blogs/b1.jpg",
+    link: "https://github.com/",
     date: "APRIL 05, 2023",
   },
 
@@ -148,7 +149,19 @@ export const projects = [
     desc: "Explore my digital portfolio. A fusion of coding projects and insightful blogs. Dive in to discover my expertise and insights in the world of technology.",
     category: "React",
     cover: "../images/blogs/b1.jpg",
-    link: "https://www.google.pt"
+    text: "In this project....",
+    link: "https://github.com/rfcfa-iscte/Blog",
+    author: "Rui Ferreira",
+  },
+  {
+  id: 2,
+    title: "Pokedex traker",
+    desc: "This projects helps you track your pokedex completion progress.",
+    category: "React",
+    cover: "../images/blogs/b2.jpg",
+    text: "Still in production",
+    link: "https://github.com/rfcfa-iscte/Pokedex-helper",
+    author: "Rui Ferreira",
   },
 
 ]
