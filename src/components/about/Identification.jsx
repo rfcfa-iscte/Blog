@@ -4,7 +4,7 @@ import { about } from "../../assets/data/data";
 
 export const Identification = () => {
   return (
-    <div className="container">
+    <div className="about-container">
       <div className="image-container">
         <img src="../images/about/pfp.png" alt="Your Image" />
       </div>
