@@ -16,13 +16,13 @@ export const Footer = () => {
   };
   const handleYoutubeClick = () => {
     window.open(
-      "https://www.youtube.com/channel/UCITeWt-qhxioVw_A29Unbow",
+      "https://www.youtube.com/channel/UCHlkyAhPW8cjvr-aRAfxpug",
       "_blank"
     );
   };
   return (
     <>
-      <footer className="boxItems">
+      <footer className="footer">
         <div className="container flex">
           <p></p>
           <div className="social">

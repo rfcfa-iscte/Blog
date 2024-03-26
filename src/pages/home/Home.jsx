@@ -1,11 +1,9 @@
 import React from "react"
-import { Card } from "../../components/blog/Card"
-import { Category } from "../../components/category/Category"
+import "./home.css";
 
 export const Home = () => {
   return (
     <>
-      
     </>
   )
 }

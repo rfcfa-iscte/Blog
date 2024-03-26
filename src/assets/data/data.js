@@ -1,3 +1,34 @@
+export const about = 
+  {
+    id: 1,
+    text: "I'm a software developer. Born in 2000, I've always been deeply immersed in technology from a young age. Initially drawn in by gaming, my fascination with technology naturally extended into other realms, particularly coding. I possess an insatiable curiosity for various subjects and thrive on the excitement of acquiring new knowledge.",
+    name: "Rui Ferreira",
+    mail: "ruifilipeferreira79@gmail.com",
+    from: "Lisbon, Portugal",
+    bday: "July 09, 2000",
+    language: "Portuguese, English and Spanish",
+    company: "",
+    uni: "Iscte-iul",
+    course: "Computer Science and Business Management",
+    bach: "2018-2022",
+    master: "2022-2023",
+  }
+
+export const publications = [
+  {
+    id:1,
+    title: "Implementation of a monitoring system for students' learning paths",
+    text:"",
+    link:"http://hdl.handle.net/10071/29955",
+  },
+  {
+    id:2,
+    title: "How Can LMS Affect Student’s Motivation and Engagement?",
+    text:"",
+    link:"https://link.springer.com/chapter/10.1007/978-3-031-40710-9_10",
+  }
+]
+
 export const nav = [
   {
     id: 1,
@@ -145,16 +176,26 @@ export const blog = [
 export const projects = [
   {
     id: 1,
+      title: "Learning Path Tracker",
+      desc: "This project consists in a platform where students can see how their learning path is going. It extracts information from moodle to build a dashboard for the student.",
+      category: "React | Java | SQL",
+      cover: "../images/projects/p1.png",
+      text: "Still in production",
+      link: "https://repositorio.iscte-iul.pt/handle/10071/29955",
+      author: "Rui Ferreira",
+    },
+  {
+    id: 2,
     title: "My Digital Portfolio",
     desc: "Explore my digital portfolio. A fusion of coding projects and insightful blogs. Dive in to discover my expertise and insights in the world of technology.",
     category: "React",
     cover: "../images/blogs/b1.jpg",
     text: "In this project....",
-    link: "https://github.com/rfcfa-iscte/Blog",
+    link: "https://blog-mocha-three-11.vercel.app",
     author: "Rui Ferreira",
   },
   {
-  id: 2,
+  id: 3,
     title: "Pokedex traker",
     desc: "This projects helps you track your pokedex completion progress.",
     category: "React",
@@ -163,5 +204,15 @@ export const projects = [
     link: "https://github.com/rfcfa-iscte/Pokedex-helper",
     author: "Rui Ferreira",
   },
+{
+    id: 4,
+      title: "Learning Path Tracker",
+      desc: "This project consists in a platform where students can see how their learning path is going. It extracts information from moodle to build a dashboard for the student.",
+      category: "React | Java | SQL",
+      cover: "../images/blogs/b2.jpg",
+      text: "Still in production",
+      link: "https://repositorio.iscte-iul.pt/handle/10071/29955",
+      author: "Rui Ferreira",
+    },
 
 ]

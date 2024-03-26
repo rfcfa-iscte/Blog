@@ -43,10 +43,7 @@
   font-size: 17px;
   line-height: 25px;
 }
-.boxItems {
-  position: relative;
-  margin-bottom: 15px; /* Margin at the bottom of each boxItems */
-}
+
 .blog .date {
   position: absolute;
   bottom: 10px; /* Margin from the bottom of each boxItems */

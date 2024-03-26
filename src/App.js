@@ -1,16 +1,13 @@
-import React from "react"
-import { Footer } from "./components/footer/Footer"
-import { Header } from "./components/header/Header"
-import { Home } from "./pages/home/Home"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import { DetailsPages } from "./pages/details/DetailsPages"
-import { Account } from "./pages/account/Account"
-import { Create } from "./components/create/Create"
-import { Blog } from "./pages/blog/Blog"
-import { Contact } from "./pages/contact/Contact"
-import { Projects } from "./pages/projects/Projects"
-import { ProjectsPages } from "./pages/projects/ProjectsPages"
-import { BlogPages } from "./pages/blog/BlogPages"
+import React from "react";
+import { Header } from "./components/header/Header";
+import { Home } from "./pages/home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Blog } from "./pages/blog/Blog";
+import { Contact } from "./pages/contact/Contact";
+import { Projects } from "./pages/projects/Projects";
+import { ProjectsPages } from "./pages/projects/ProjectsPages";
+import { BlogPages } from "./pages/blog/BlogPages";
+import { About } from "./pages/about/About";
 
 const App = () => {
   return (
@@ -18,18 +15,16 @@ const App = () => {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/Blog' component={Blog} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/projects/:id' component={ProjectsPages} />
-          <Route exact path='/blog/:id' component={BlogPages} />
-          <Route exact path='/account' component={Account} />
-          <Route exact path='/create' component={Create} />
-          <Route exact path='/contact' component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Blog" component={Blog} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects/:id" component={ProjectsPages} />
+          <Route exact path="/blog/:id" component={BlogPages} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
-        <Footer />
       </Router>
     </>
-  )
-}
-export default App
+  );
+};
+export default App;

@@ -53,12 +53,14 @@ label {
   color: #999;
   font-size: 13px;
 }
-form,
-.boxItems {
+form
+{
   border: 1px solid #e6e6e6;
   border-radius: 12px;
   padding: 20px;
   background: #fff;
+  left: 0;
+  bottom: 0;
 }
 form {
   display: flex;
@@ -106,17 +108,8 @@ form input {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 15px;
 }
-.container {
-  max-width: 95%;
-  margin: auto;
-}
-footer {
-  padding: 10px;
-}
-footer .icon {
-  font-size: 20px;
-  margin-left: 10px;
-}
+
+
 @media screen and (max-width: 768px) {
   .grid3,
   .grid {
@@ -125,4 +118,15 @@ footer .icon {
 }
 .link {
   color: #000;
+}
+.boxItems {
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+}
+
+.container {
+  max-width: 97%;
+  margin: auto;
 }

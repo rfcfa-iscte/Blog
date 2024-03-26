@@ -1,0 +1,72 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1; 
+  margin-left: 20px;
+  text-align: left; 
+  padding-left: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.label {
+  display: inline-block;
+  width: 90px; 
+}
+.experience-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.university,
+.professional {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.left-experience-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content:left;
+  margin-left: 50%;
+  
+}
+.edu-text {
+  display: flex;
+  flex-direction: column;
+}
+.edu-text p {
+  margin: 0;
+  position: relative;
+}
+
+.left-title {
+  margin-left: 50%;
+}
+
