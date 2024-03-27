@@ -58,7 +58,7 @@ form
   border: 1px solid #e6e6e6;
   border-radius: 12px;
   padding: 20px;
-  background: #fff;
+  background: #101624;
   left: 0;
   bottom: 0;
 }
@@ -73,12 +73,11 @@ form {
 form span {
   margin-bottom: 20px;
 }
-form textarea,
-.accountInfo .right input,
+form textarea, .right input,
 form input {
-  border: 1px solid #212121;
+  border: 1px solid #e6e6e6;
   border-radius: 6px;
-  color: #212121;
+  color: #e6e6e6;
   font-size: 15px;
   min-height: 44px;
   padding: 0 20px;
@@ -117,13 +116,13 @@ form input {
   }
 }
 .link {
-  color: #000;
+  color: #ffffff;
 }
 .boxItems {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #101624;
   border-radius: 12px;
   padding: 20px;
-  background: #fff;
+  background: #101624;
 }
 
 .container {

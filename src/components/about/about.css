@@ -99,3 +99,22 @@ font-size: 36px;
   display: flex;
   justify-content: flex-start;
 }
+.programming-languages-section {
+  text-align: center; /* Center align the icons */
+}
+
+.icon-container {
+  display: inline-block;
+}
+
+.programming-language-icon {
+  width: 50x;
+  height: 50px;
+  margin-right: 10px;
+  color: #555; /* Default color */
+}
+
+.programming-language-icon:hover {
+  color: #fec544; /* Change color on hover */
+  fill: #fec544;
+}

@@ -17,10 +17,10 @@ export const Experience = () => {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--right"
-            contentStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
+            contentStyle={{ background: "rgb(16,22,36)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(255, 255, 255)" }}
             date={about.master}
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            iconStyle={{ background: "rgb(16,22,36)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">{about.uni}</h3>
@@ -30,10 +30,10 @@ export const Experience = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--right"
-            contentStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
+            contentStyle={{ background: "rgb(16,22,36)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(255, 255, 255)" }}
             date={about.bach}
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            iconStyle={{ background: "rgb(16,22,36)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">{about.uni}</h3>

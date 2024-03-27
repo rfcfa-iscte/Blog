@@ -4,7 +4,7 @@ import { Identification } from "../../components/about/Identification";
 import { Experience } from "../../components/about/Experience";
 import { Publications } from "../../components/about/Publications";
 import { Technology } from "../../components/about/Technology";
-
+import {Footer} from "../../components/footer/Footer.jsx"
 export const About = () => {
   return (
     <>
@@ -16,7 +16,8 @@ export const About = () => {
         <h1 className="about-title">Publications</h1>
         <Publications/>
         <h1 className="about-title">Technology Stack</h1>
-        {/* <Technology/> */}
+        <Technology/>
+        <Footer/>
       </div>
     </>
   );

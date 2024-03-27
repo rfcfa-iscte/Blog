@@ -20,7 +20,7 @@ export const ProjectsPages = () => {
   return (
     <>
       {projectsL ? (
-        <section className="singlePage">
+        <section className="p-singlePage">
           <div className="container">
             <div className="right">
               <div className="buttons">
@@ -31,9 +31,9 @@ export const ProjectsPages = () => {
                   <FaGithub className="icon" />
                 </button>
               </div>
-              <h1>{projectsL.title}</h1>
-              <p>{projectsL.text}</p>
-              <p>Author: {projectsL.author}</p>
+              <h1 className="title">{projectsL.title}</h1>
+              <p className="text">{projectsL.text}</p>
+              <p className="text">Author: {projectsL.author}</p>
               <div className="img">
                 <img src={projectsL.cover} alt="" />
               </div>

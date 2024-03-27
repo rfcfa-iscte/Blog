@@ -6,7 +6,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import WorkIcon from "@mui/icons-material/Work";
+import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 
 export const Publications = () => {
   return (
@@ -16,17 +16,18 @@ export const Publications = () => {
           <VerticalTimelineElement
             key={index}
             className="vertical-timeline-element--right"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentStyle={{ background: "rgb(16,22,36)", color: "#fff" }}
             contentArrowStyle={{
-              borderRight: "7px solid  rgb(33, 150, 243)",
+              borderRight: "7px solid  rgb(255, 255, 255)",
             }}
             iconStyle={{
-              background: "rgb(33, 150, 243)",
+              background: "rgb(16,22,36)",
               color: "#fff",
               cursor: "pointer",
+              
             }}
             icon={
-              <WorkIcon
+              <LibraryBooksIcon
                 onClick={() => window.open(publication.link, "_blank")}
               />
             }

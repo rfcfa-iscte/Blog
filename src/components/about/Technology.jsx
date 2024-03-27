@@ -1,20 +1,30 @@
 import React from "react";
-import "./about.css"; 
+import "./about.css";
+import {
+  faHtml5,
+  faCss3,
+  faJs,
+  faJava,
+  faPhp,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Technology = () => {
   return (
-    <div className="container">
-      <div className="image-container">
-        <img src="path_to_your_image.jpg" alt="Your Image" />
-      </div>
-      <div className="text-container">
-        <h2>Your Text Heading</h2>
-        <p>
-          Your text content goes here. You can add multiple paragraphs or any
-          other HTML elements as needed.
-        </p>
+    <div className="programming-languages-section">
+      <div className="icon-container">
+        <FontAwesomeIcon icon={faJava} className="programming-language-icon" />
+        <FontAwesomeIcon icon={faHtml5} className="programming-language-icon" />
+        <FontAwesomeIcon icon={faCss3} className="programming-language-icon" />
+        <FontAwesomeIcon icon={faJs} className="programming-language-icon" />
+        <FontAwesomeIcon icon={faPhp} className="programming-language-icon" />
+        <img
+          src="../images/code/mysql-logo-svgrepo-com.svg"
+          alt="MySQL"
+          className="programming-language-icon"
+        />
+        {/* Add more icons as needed */}
       </div>
     </div>
   );
 };
-

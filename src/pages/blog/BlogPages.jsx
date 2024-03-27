@@ -22,7 +22,7 @@ export const BlogPages = () => {
   return (
     <>
       {blogs ? (
-        <section className="singlePage">
+        <section className="b-singlePage">
           <div className="container">
             <div className="right">
               <div className="buttons">
@@ -33,10 +33,10 @@ export const BlogPages = () => {
                   <FaExternalLinkAlt />
                 </button>
               </div>
-              <h1>{blogs.title}</h1>
-              <p>{blogs.desc}</p>
-              <p>{blogs.text}</p>
-              <p>Author: {blogs.author}</p>
+              <h1 className="title">{blogs.title}</h1>
+              <p className="text">{blogs.desc}</p>
+              <p className="text">{blogs.text}</p>
+              <p className="text">Author: {blogs.author}</p>
               <div className="left">
                 <img src={blogs.cover} alt="" />
               </div>
