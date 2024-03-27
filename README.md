@@ -26,10 +26,7 @@ The project directory structure is organized as follows:
 
 ## Usage
 
-1. Clone the repository: `git clone <repository-url>`
-2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
-4. Open the website in your browser: [http://localhost:3000](http://localhost:3000)
+To view the website, simply visit https://blog-mocha-three-11.vercel.app.
 
 ## Credits
 
