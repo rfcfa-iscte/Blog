@@ -13,7 +13,7 @@ export const Experience = () => {
   return (
     <div className="experience-section">
       <div className="university">
-        <h2>Education</h2>
+        <h2 className="exp-title">Education</h2>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--right"
@@ -44,7 +44,7 @@ export const Experience = () => {
         </VerticalTimeline>
       </div>
       <div className="professional">
-        <h2>Professional Experience</h2>
+        <h2 className="exp-title">Professional Experience</h2>
         {/* <VerticalTimeline>
           <VerticalTimelineElement
           >
