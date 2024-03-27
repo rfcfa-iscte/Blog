@@ -19,13 +19,17 @@ export const publications = [
     id:1,
     title: "Implementation of a monitoring system for students' learning paths",
     text:"",
+    category: "Thesis",
     link:"http://hdl.handle.net/10071/29955",
+    abstract:"abstract",
   },
   {
     id:2,
     title: "How Can LMS Affect Student’s Motivation and Engagement?",
     text:"",
+    category:"Book Chapter",
     link:"https://link.springer.com/chapter/10.1007/978-3-031-40710-9_10",
+    abstract:"abstract",
   }
 ]
 
