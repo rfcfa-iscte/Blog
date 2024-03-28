@@ -15,7 +15,7 @@ export const Publications = () => {
         {publications.map((publication, index) => (
           <VerticalTimelineElement
             key={index}
-            className="vertical-timeline-element--right"
+            className="vertical-timeline-element--publication"
             contentStyle={{ background: "rgb(16,22,36)", color: "#fff" }}
             contentArrowStyle={{
               borderRight: "7px solid  rgb(255, 255, 255)",

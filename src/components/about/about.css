@@ -5,10 +5,23 @@
   align-items: center;
 }
 
+@media screen and (max-width: 900px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .image-container {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .image-container {
+    justify-content: center;
+  }
 }
 
 .image-container img {
@@ -17,26 +30,30 @@
 }
 
 .text-container {
-  flex: 1; 
+  flex: 1;
   margin-left: 20px;
   margin-right: 15%;
-  text-align: left; 
+  text-align: left;
   padding-left: 20px;
 }
-.id-title{
+
+.id-title {
   color: #ffffff;
   font-size: 36px;
 }
-.id-subtitle{
+
+.id-subtitle {
   color: #fec544;
   font-size: 24px;
-  line-height: 2.5; 
+  line-height: 2.5;
 }
-.id-text{
+
+.id-text {
   color: #838a9b;
   font-size: 16px;
-  line-height: 2; 
+  line-height: 2;
 }
+
 .download-button {
   position: relative;
   transform: translateY(75%);
@@ -51,17 +68,24 @@
 .label {
   display: inline-block;
   width: 90px;
-  color: #838a9b; 
+  color: #838a9b;
 }
-.exp-title{
-color: #ffffff;
-text-align: center;
-font-size: 36px;
+
+.exp-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
 }
+
 .experience-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+@media screen and (max-width: 900px) { 
+  .experience-section {
+    grid-template-columns: 1fr;
+  }
 }
 
 .university,
@@ -79,14 +103,16 @@ font-size: 36px;
 .experience-item {
   display: flex;
   margin-bottom: 20px;
-  justify-content:left;
+  justify-content: left;
   margin-left: 50%;
-  
+
 }
+
 .edu-text {
   display: flex;
   flex-direction: column;
 }
+
 .edu-text p {
   margin: 0;
   position: relative;
@@ -95,12 +121,15 @@ font-size: 36px;
 .left-title {
   margin-left: 50%;
 }
+
 .publications-container {
   display: flex;
   justify-content: flex-start;
 }
+
 .programming-languages-section {
-  text-align: center; /* Center align the icons */
+  text-align: center;
+  /* Center align the icons */
 }
 
 .icon-container {
@@ -111,10 +140,12 @@ font-size: 36px;
   width: 50x;
   height: 50px;
   margin-right: 10px;
-  color: #555; /* Default color */
+  color: #555;
+  /* Default color */
 }
 
 .programming-language-icon:hover {
-  color: #fec544; /* Change color on hover */
+  color: #fec544;
+  /* Change color on hover */
   fill: #fec544;
 }
