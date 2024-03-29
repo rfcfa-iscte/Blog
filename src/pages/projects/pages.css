@@ -35,3 +35,15 @@
 .p-singlePage .text {
   color: #fff;
 }
+.p-singlePage .button {
+  background: #212121;
+  border: 1px solid;
+  border-color: #212121;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  height: 48px;
+  line-height: 1;
+  padding: 15px 28px;
+}

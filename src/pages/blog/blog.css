@@ -1,7 +1,6 @@
 .b-singlePage {
   padding: 100px 0;
   background: #0a101e;
-  display: grid;
 }
 .b-singlePage .right {
   margin-top: 30px;
@@ -37,4 +36,13 @@
 }
 .b-singlePage .text {
   color: #fff;
+}
+.b-singlePage .button {
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  height: 48px;
+  line-height: 1;
+  padding: 15px 28px;
 }

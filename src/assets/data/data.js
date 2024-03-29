@@ -10,8 +10,8 @@ export const about =
     company: "",
     uni: "Iscte-iul",
     course: "Computer Science and Business Management",
-    bach: "2018-2022",
-    master: "2022-2023",
+    bach: "2018-22",
+    master: "2022-23",
   }
 
 export const publications = [
