@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 
 export const Identification = () => {
   const handleDownloadClick = () => {
-    const fileUrl = require("../../assets/data/CV.pdf");
+    const fileUrl = require("../../assets/data/CV Rui Ferreira.pdf");
     const link = document.createElement("a");
     link.href = fileUrl;
     link.download = "CV.pdf";
