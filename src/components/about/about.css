@@ -59,7 +59,9 @@
   transform: translateY(75%);
   border-radius: 20px;
 }
-
+.left_experience{
+  margin-left: -175px;
+}
 .list {
   list-style: none;
   padding: 0;
@@ -82,9 +84,12 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 1169px) { 
   .experience-section {
     grid-template-columns: 1fr;
+  }
+  .left_experience{
+    margin-left: 0px;
   }
 }
 

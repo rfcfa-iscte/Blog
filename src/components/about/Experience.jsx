@@ -13,6 +13,7 @@ export const Experience = () => {
     <div className="experience-section">
       <div className="university">
         <h2 className="exp-title">Education</h2>
+        <div className="left_experience">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--right"
@@ -41,6 +42,7 @@ export const Experience = () => {
             </h4>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        </div>
       </div>
       <div className="professional">
         <h2 className="exp-title">Professional Experience</h2>

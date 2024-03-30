@@ -22,14 +22,18 @@
 }
 .b-singlePage .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.b-singlePage .left {
+  margin-top: 30px;
+}
+
+.b-singlePage .right {
+  margin-top: 30px;
 }
 .b-singlePage .button {
-  margin-left: 20px;
   border: none;
-}
-.b-singlePage .button:nth-child(1) {
-  background: #10ac84;
 }
 .b-singlePage .title{
   color: #fff;
@@ -38,11 +42,14 @@
   color: #fff;
 }
 .b-singlePage .button {
+  background: #212121;
+  border: 1px solid;
+  border-color: #212121;
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
   font-weight: 400;
-  height: 48px;
+  height: 50px;
   line-height: 1;
-  padding: 15px 28px;
+  padding: 10px 25px;
 }
