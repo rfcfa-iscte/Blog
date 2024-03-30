@@ -11,3 +11,9 @@ footer .icon {
   font-size: 25px;
   margin-left: 10px;
 }
+
+.footer .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
