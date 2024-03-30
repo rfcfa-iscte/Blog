@@ -44,12 +44,6 @@ textarea {
   list-style-type: none;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .grid3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

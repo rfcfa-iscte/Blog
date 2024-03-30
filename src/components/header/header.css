@@ -1,5 +1,5 @@
 header {
-  background: rgba(10,16,30,0.8);
+  background: rgba(10, 16, 30, 0.8);
   padding: 20px;
   top: 0;
   left: 0;
@@ -9,20 +9,60 @@ header {
   z-index: 9999;
 }
 
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 nav ul {
   display: flex;
 }
+
 nav a {
   text-transform: capitalize;
   margin-right: 30px;
   color: #FAFAFA;
 }
-.header .word {
+
+.header .header-container-menu-item {
   display: inline-block;
   padding: 0 5px;
 }
 
-.header .word:hover a {
+.header .header-container-menu-item:hover a {
   color: #fec544;
+}
+
+.header-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    top: 80px;
+    position: absolute;
+    left: -100%;
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+  }
+
+  .active {
+    background-color: rgba(10, 16, 30, 0.8);
+    left: 0px;
+    opacity: 1;
+    align-items: end;
+    transition: all 0.5s ease-in;
+    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+  }
+
+  .header-toggle {
+    display: block;
+    color: #fff;
+  }
 }
