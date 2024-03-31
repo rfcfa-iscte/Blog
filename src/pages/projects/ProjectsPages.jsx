@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { projects } from "../../assets/data/data";
 import { FaGithub } from "react-icons/fa";
 import { IoArrowBackCircleSharp } from "react-icons/io5";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export const ProjectsPages = () => {
   const { id } = useParams();
@@ -38,6 +39,12 @@ export const ProjectsPages = () => {
                   onClick={() => window.open(projectsL.link, "_blank")}
                 >
                   <FaGithub className="icon" size={30} />
+                </button>
+                <button
+                  className="button"
+                  onClick={() => window.open(projectsL.site, "_blank")}
+                >
+                  <FaExternalLinkAlt size={25} />
                 </button>
               </div>
             </div>

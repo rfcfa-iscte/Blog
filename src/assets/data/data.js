@@ -187,6 +187,7 @@ export const projects = [
     text: "Still in production",
     link: "https://repositorio.iscte-iul.pt/handle/10071/29955",
     author: "Rui Ferreira",
+    site: "",
   },
   {
     id: 2,
@@ -197,6 +198,7 @@ export const projects = [
     text: "In this project....",
     link: "https://blog-mocha-three-11.vercel.app",
     author: "Rui Ferreira",
+    site: "",
   },
   {
     id: 3,
@@ -207,6 +209,7 @@ export const projects = [
     text: "Still in production",
     link: "https://github.com/rfcfa-iscte/Pokedex-helper",
     author: "Rui Ferreira",
+    site: "",
   },
   {
     id: 4,
@@ -217,5 +220,6 @@ export const projects = [
     text: "Still in production",
     link: "https://repositorio.iscte-iul.pt/handle/10071/29955",
     author: "Rui Ferreira",
+    site: "",
   },
 ];
