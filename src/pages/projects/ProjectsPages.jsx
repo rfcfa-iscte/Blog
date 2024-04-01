@@ -34,18 +34,22 @@ export const ProjectsPages = () => {
                 </button>
               </div>
               <div className="right">
-                <button
-                  className="button"
-                  onClick={() => window.open(projectsL.link, "_blank")}
-                >
-                  <FaGithub className="icon" size={30} />
-                </button>
-                <button
-                  className="button"
-                  onClick={() => window.open(projectsL.site, "_blank")}
-                >
-                  <FaExternalLinkAlt size={25} />
-                </button>
+                {projectsL.link ? (
+                  <button
+                    className="button"
+                    onClick={() => window.open(projectsL.link, "_blank")}
+                  >
+                    <FaGithub className="icon" size={30} />
+                  </button>
+                ) : null}
+                {projectsL.site ? (
+                  <button
+                    className="button"
+                    onClick={() => window.open(projectsL.site, "_blank")}
+                  >
+                    <FaExternalLinkAlt size={25} />
+                  </button>
+                ) : null}
               </div>
             </div>
             <h1 className="title">{projectsL.title}</h1>

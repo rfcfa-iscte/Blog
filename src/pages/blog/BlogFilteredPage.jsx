@@ -3,12 +3,20 @@ import { Category } from "../../components/category/Category";
 import { Footer } from "../../components/footer/Footer";
 import { FilteredCards } from "../../components/blog/FilteredCards";
 import { useParams } from "react-router-dom";
+import { IoArrowBackCircleSharp } from "react-icons/io5";
 
 export const BlogFilteredPage = () => {
-    const {category} = useParams();
+  const { category } = useParams();
   return (
     <>
       <Category />
+      {/* <div className="buttons">
+        <div className="left">
+          <button className="button">
+            <IoArrowBackCircleSharp size={30} />
+          </button>
+        </div>
+      </div> */}
       {category && <FilteredCards category={category} />}
       <Footer />
     </>
