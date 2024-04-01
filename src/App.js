@@ -8,6 +8,7 @@ import { Projects } from "./pages/projects/Projects";
 import { ProjectsPages } from "./pages/projects/ProjectsPages";
 import { BlogPages } from "./pages/blog/BlogPages";
 import { About } from "./pages/about/About";
+import { BlogFilteredPage } from "./pages/blog/BlogFilteredPage";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/projects/:id" component={ProjectsPages} />
           <Route exact path="/blog/:id" component={BlogPages} />
+          <Route exact path="/blogFilter/:category" component={BlogFilteredPage} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>

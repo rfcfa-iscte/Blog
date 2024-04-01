@@ -4,6 +4,7 @@ import { category } from "../../assets/data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
 
@@ -69,17 +70,19 @@ export const Category = () => {
           <Slider ref={sliderRef} {...settings}>
             {category.map((item) => (
               <div className="boxs" key={item.id}>
-                <li className="box" onClick={() => window.open("https://www.youtube.com/channel/UCITeWt-qhxioVw_A29Unbow", "_blank")}>
-                  <img
-                    src={item.cover}
-                    alt="cover"
-                    className="category-image"
-                  />
-                  <div className="overlay">
-                    <h4>{item.category}</h4>
-                    <p>{item.title}</p>
-                  </div>
-                </li>
+                <Link to={`/blogFilter/${item.category.replace(/\s+/g, "")}`}>
+                  <li className="box">
+                    <img
+                      src={item.cover}
+                      alt="cover"
+                      className="category-image"
+                    />
+                    <div className="overlay">
+                      <h4>{item.category}</h4>
+                      <p>{item.title}</p>
+                    </div>
+                  </li>
+                </Link>
               </div>
             ))}
           </Slider>

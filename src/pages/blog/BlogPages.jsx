@@ -10,7 +10,7 @@ import { IoArrowBackCircleSharp } from "react-icons/io5";
 export const BlogPages = () => {
   const { id } = useParams();
   const [blogs, setBlogs] = useState(null);
-
+  console.log("Category:", id); // Log the category parameter
   useEffect(() => {
     let blogs = blog.find((blogs) => blogs.id === parseInt(id));
     if (blogs) {

@@ -1,18 +1,30 @@
-import React from "react";
+import React, { useParams, useState, useEffect } from "react";
 import "./blog.css";
 import { blog } from "../../assets/data/data";
-import {
-  AiOutlineTags,
-  AiOutlineClockCircle,
-} from "react-icons/ai";
+import { AiOutlineTags, AiOutlineClockCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-export const Card = () => {
+export const FilteredCards = ({ category }) => {
+  console.log("Category:", category);
+  const [filteredBlogs, setFilteredBlogs] = useState([]);
+
+  useEffect(() => {
+    const categoryWithoutSpaces = category.replace(/\s/g, "");
+
+    const filtered = blog.filter((blogItem) => {
+      const blogCategoryWithoutSpaces = blogItem.category.replace(/\s/g, "");
+      return blogCategoryWithoutSpaces === categoryWithoutSpaces;
+    });
+
+    setFilteredBlogs(filtered);
+  }, [category]);
+
+  console.log("Filtered Blogs:", filteredBlogs);
   return (
     <>
       <section className="blog">
         <div className="container grid3">
-          {blog.map((item) => (
+          {filteredBlogs.map((item) => (
             <div className="box boxItems" key={item.id}>
               <Link to={`/blog/${item.id}`} className="link">
                 <div className="img">
