@@ -18,10 +18,10 @@ export const Form = () => {
 
     emailjs
       .sendForm(
-        "service_7goi9dx",
-        "template_sicjbk2",
+        "service_ooowgfn",
+        "template_c05vs9g",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "SuS0njJvAR9XJDSyi"
       )
       .then(
         (result) => {
