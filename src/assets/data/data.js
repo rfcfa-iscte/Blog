@@ -198,7 +198,7 @@ export const projects = [
     text: "In this project....",
     link: "https://github.com/rfcfa-iscte/Blog",
     author: "Rui Ferreira",
-    site: "https://blog-mocha-three-11.vercel.app",
+    site: "https://rui-ferreira.vercel.app",
   },
   {
     id: 3,
