@@ -1,40 +1,27 @@
-body {
-    margin-top: 100px;
+body, html{
+  margin-top: 100px;
+  height: 100%;
 }
 
-@keyframes typing-erasing {
-    0% {
-      width: 0;
-    }
-    10% {
-      width: 20%; /* Typing speed for the first 10% of the animation */
-    }
-    30% {
-      width: 60%; /* Erasing speed for the next 10% of the animation */
-    }
-    50% {
-        width: 100%; /* Pause after typing */
-      }
-      70% {
-        width: 60%; /* Pause after erasing */
-      }
-      90% {
-        width: 20%; /* Erasing speed for the next 10% of the animation */
-      }
-    100% {
-      width: 0;
-    }
-  }
-.typewriter {
-    color: #fff;
-    display: inline-block;
-    width: fit-content;
-    overflow: hidden;
-    white-space: nowrap;
+.title_1 {
+  font-size: 3em;
+  color: #fff;
 }
 
-.typewriter h2 {
-    overflow: hidden;
-    border-right: .15em solid #fff;
-    white-space: nowrap;
-    animation: typing-erasing 10s infinite;}
+.landing_page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.left_text {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile_image {
+  display: flex;
+  justify-content: flex-end;
+}
