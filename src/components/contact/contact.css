@@ -54,3 +54,16 @@ textarea[name="message"] {
     color: #ffffff;
      cursor: pointer;
 }
+.tooltip {
+    position: absolute;
+    top: -40px;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+  }
+  

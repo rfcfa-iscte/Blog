@@ -1,5 +1,5 @@
 .category {
-  margin-top: 75px;
+  margin-top: 100px;
   position: relative;
 }
 .category .box {
@@ -68,7 +68,9 @@
   transition: 0.5s;
   padding: 2px;
 }
-
+.control-btn button:hover {
+  background: #fec544;
+}
 .control-btn .next {
   position: absolute;
   top: 40%;

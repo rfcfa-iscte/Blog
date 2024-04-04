@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import { TypeAnimation } from "react-type-animation";
+import { ContactInfo } from "../../components/contact/ContactInfo";
 
 export const Home = () => {
 
@@ -17,6 +18,8 @@ export const Home = () => {
             style={{ fontSize: "3em", display: "inline-block", color: "#fec544" }}
             repeat={Infinity}
           />
+          
+          <ContactInfo></ContactInfo>
         </div>
         <div className="profile_image">
           <img src="../images/about/pfp.png" alt="Your Image" />

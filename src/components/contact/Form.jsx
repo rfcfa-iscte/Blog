@@ -4,12 +4,17 @@ import "./contact.css";
 
 export const Form = () => {
   const [isClicked, setIsClicked] = useState(false);
+  const [showTooltip, setShowTooltip] = useState(false);
+  
   const handleMouseDown = () => {
     setIsClicked(true);
   };
 
   const handleMouseUp = () => {
     setIsClicked(false);
+  };
+  const handleClick = () => {
+    return <div className="tooltip">EMAIL SENT</div>;
   };
   const form = useRef();
 
@@ -47,8 +52,10 @@ export const Form = () => {
           value="Send"
           className={isClicked ? "clicked" : "f-butt"}
           onMouseDown={handleMouseDown}
+          onClick={handleClick}
           onMouseUp={handleMouseUp}
         />
+        {showTooltip ? <div className="tooltip">Email sent</div> : ""}
       </form>
     </div>
   );

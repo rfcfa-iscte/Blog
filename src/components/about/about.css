@@ -27,6 +27,7 @@
 .image-container img {
   max-width: 100%;
   height: auto;
+  transform: scaleX(-1);
 }
 
 .text-container {
