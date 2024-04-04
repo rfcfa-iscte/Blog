@@ -12,9 +12,13 @@ export const Header = () => {
     header.classList.toggle("active", this.window.scrollY > 100);
   });
   const [isToggleIcon, setIsToggleIcon] = useState(false);
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
 
   const toggleMenu = () => {
     setIsToggleIcon(!isToggleIcon);
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -23,7 +27,7 @@ export const Header = () => {
         <div className="container-header">
           <div className="logo">
             <li>
-              <Link to="/">{<img src={logo} alt="logo" width="50px" />}</Link>
+              <Link to="/" onClick={handleClick}>{<img src={logo} alt="logo" width="50px" />}</Link>
             </li>
           </div>
           <nav>
