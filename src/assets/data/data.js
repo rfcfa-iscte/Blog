@@ -233,8 +233,8 @@ export const projects = [
     category: "Next.js | TypeScript | Mongodb | Prisma",
     cover: "../images/projects/p4.png",
     text: "This project is still in production, currently following the tutorial https://www.youtube.com/watch?v=kPKXmEp_wfU",
-    link: "https://www.youtube.com/watch?v=kPKXmEp_wfU",
+    link: "https://github.com/rfcfa-iscte/Task-Manager",
     author: "Rui Ferreira",
-    site: "",
+    site: "https://rui-ferreira-task-manager.vercel.app",
   },
 ];
