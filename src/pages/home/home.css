@@ -28,15 +28,15 @@ html {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin-bottom: 150px;
-  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-right: 50px;
   transition: 0.5s, box-shadow 0.5s;
-  transform: scale(1.6);
+  transform: scale(1.2);
 }
 
 .profile_image:hover {
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
-  transform: translateY(-5px) scale(1.6);
+  transform: translateY(-5px) scale(1.2);
 }
 
 .social_list {
@@ -49,14 +49,18 @@ html {
   box-shadow: 0 2px 4px rgb(0 0 0 / 100%);
   background-color: black;
   display: flex;
+  
 }
 
-.social_box {
-  position: relative;
-  border: 1px solid #3f66c0;
-  border-radius: 100px;
-  padding: 20px;
-  background: #101624;
-  width: fit-content;
-  top: 50%;
+.contact-info{
+  display: flex;
+  justify-content: flex-end;
+}
+.button-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.projects-button{
+  display: flex ;
 }

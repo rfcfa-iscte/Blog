@@ -21,7 +21,6 @@ export const ContactInfo = () => {
   };
   return (
     <>
-      <div className=" social_box">
         <li className="social_list">
           <div className="social_button">
             <AiFillLinkedin
@@ -56,7 +55,6 @@ export const ContactInfo = () => {
             />
           </div>
         </li>
-      </div>
     </>
   );
 };
