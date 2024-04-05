@@ -27,7 +27,7 @@ export const Home = () => {
           />
           <div className="button-container">
             <Button
-              className="-button"
+              className="project-button"
               variant="contained"
               onClick={handleDownloadClick}
               sx={{

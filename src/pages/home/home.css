@@ -6,20 +6,23 @@ html {
 }
 
 .title_1 {
-  margin-top: 200px;
   font-size: 3em;
   color: #fff;
 }
 
 .landing_page {
+  position: relative; /* Set relative positioning */
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
 
 .left_text {
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
-  justify-content: baseline;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   flex-direction: column;
   text-align: center;
 }
@@ -54,13 +57,44 @@ html {
 
 .contact-info{
   display: flex;
-  justify-content: flex-end;
 }
 .button-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  margin-top: 20px; /* Adjust margin as needed */
 }
 .projects-button{
-  display: flex ;
+  width: 200px; /* Adjust button width */
+  height: 50px; /* Adjust button height */
+  font-size: 16px; /* Adjust font size */
+}
+
+@media screen and (max-width: 1169px) {
+
+  .landing_page {
+    grid-template-columns: 1fr;
+  }
+.left_text{
+  margin-top: 100px;
+}
+  .profile_image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+  }
+  .button-container{
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .projects-button{
+    display: flex ;
+    width: 100px;
+  }
+  .social_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
