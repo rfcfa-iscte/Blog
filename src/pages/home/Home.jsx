@@ -19,7 +19,7 @@ export const Home = () => {
             wrapper="span"
             speed={50}
             style={{
-              fontSize: "3em",
+              fontSize: `clamp(1rem, 20vw, 3rem)`,
               display: "flex",
               justifyContent: "center",
               color: "#fec544",
