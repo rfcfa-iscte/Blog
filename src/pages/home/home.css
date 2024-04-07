@@ -18,7 +18,7 @@ html {
 .name {
   text-align: center;
   color: #fff;
-  font-size: 7em;
+  font-size: clamp(1rem, 20vw, 7rem);
   animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 

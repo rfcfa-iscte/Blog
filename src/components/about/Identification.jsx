@@ -41,21 +41,23 @@ export const Identification = () => {
               </div>
             </div>
           </div>
-          <Button
-            className="download-button"
-            variant="contained"
-            onClick={handleDownloadClick}
-            sx={{
-              borderRadius: "20px",
-              color: "#000000",
-              backgroundColor: "#fec544",
-              "&:hover": {
-                backgroundColor: "#f8cd67",
-              },
-            }}
-          >
-            CV Dowload
-          </Button>
+          <div className="download-button-container">
+            <Button
+              className="download-button"
+              variant="contained"
+              onClick={handleDownloadClick}
+              sx={{
+                borderRadius: "20px",
+                color: "#000000",
+                backgroundColor: "#fec544",
+                "&:hover": {
+                  backgroundColor: "#f8cd67",
+                },
+              }}
+            >
+              CV Dowload
+            </Button>
+          </div>
         </div>
       </div>
     </div>
