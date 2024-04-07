@@ -5,12 +5,13 @@ import { Experience } from "../../components/about/Experience";
 import { Publications } from "../../components/about/Publications";
 import { Technology } from "../../components/about/Technology";
 import { Footer } from "../../components/footer/Footer.jsx";
+
 export const About = () => {
   return (
     <>
       <div>
         <h1 className="about-title">About Me</h1>
-        <Identification  />
+        <Identification />
 
         <h1 className="about-title">Resume</h1>
         <Experience />

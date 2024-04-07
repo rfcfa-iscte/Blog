@@ -5,96 +5,31 @@ html {
   padding: 0;
 }
 
-.title_1 {
-  font-size: 3em;
-  color: #fff;
-}
-
-.landing_page {
-  position: relative; /* Set relative positioning */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.layout {
   height: 100vh;
-}
-
-.left_text {
-  margin-top: auto;
-  margin-bottom: auto;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.profile_image {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  transition: 0.5s, box-shadow 0.5s;
-  transform: scale(1.2);
+
+.name {
+  text-align: center;
+  color: #fff;
+  font-size: 7em;
+  animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.profile_image:hover {
-  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
-  transform: translateY(-5px) scale(1.2);
-}
-
-.social_list {
+.button-home {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
 
-.social_button {
-  box-shadow: 0 2px 4px rgb(0 0 0 / 100%);
-  background-color: black;
-  display: flex;
-  
-}
+.typewritter {
+  animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
-.contact-info{
-  display: flex;
-}
-.button-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-top: 20px; /* Adjust margin as needed */
-}
-.projects-button{
-  width: 200px; /* Adjust button width */
-  height: 50px; /* Adjust button height */
-  font-size: 16px; /* Adjust font size */
-}
-
-@media screen and (max-width: 1169px) {
-
-  .landing_page {
-    grid-template-columns: 1fr;
-  }
-.left_text{
-  margin-top: 100px;
-}
-  .profile_image {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 50%;
-  }
-  .button-container{
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
-  .projects-button{
-    display: flex ;
-    width: 100px;
-  }
-  .social_list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
