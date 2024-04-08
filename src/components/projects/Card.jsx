@@ -1,11 +1,7 @@
 import React from "react";
 import "./project.css";
 import { projects } from "../../assets/data/data";
-import {
-  AiOutlineTags,
-  AiOutlineClockCircle,
-  AiOutlineShareAlt,
-} from "react-icons/ai";
+import { AiOutlineTags } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export const Card = () => {

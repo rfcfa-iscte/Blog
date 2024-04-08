@@ -16,7 +16,7 @@ export const Identification = () => {
     <div className="about-container">
       <div className="slide-in-top">
         <div className="image-container">
-          <img src="../images/about/pfp.png" alt="Your Image" />
+          <img src="../images/about/pfp.png" alt="pfp" />
         </div>
       </div>
       <div className="slide-in-top">
