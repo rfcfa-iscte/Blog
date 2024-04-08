@@ -4,7 +4,6 @@ import "./header.css";
 import { nav } from "../../assets/data/data";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Fab } from "@mui/material";
 
 export const Header = () => {
   window.addEventListener("scroll", function () {

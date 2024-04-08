@@ -3,7 +3,6 @@ import { Category } from "../../components/category/Category";
 import { Footer } from "../../components/footer/Footer";
 import { FilteredCards } from "../../components/blog/FilteredCards";
 import { useParams } from "react-router-dom";
-import { IoArrowBackCircleSharp } from "react-icons/io5";
 
 export const BlogFilteredPage = () => {
   const { category } = useParams();

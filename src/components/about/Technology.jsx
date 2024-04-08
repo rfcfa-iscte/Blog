@@ -1,13 +1,5 @@
 import React from "react";
 import "./about.css";
-import {
-  faHtml5,
-  faCss3,
-  faJs,
-  faJava,
-  faPhp,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaJava } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";

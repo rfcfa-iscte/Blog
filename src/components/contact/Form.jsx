@@ -4,7 +4,7 @@ import "./contact.css";
 
 export const Form = () => {
   const [isClicked, setIsClicked] = useState(false);
-  const [showTooltip, setShowTooltip] = useState(false);
+  // const [showTooltip, setShowTooltip] = useState(false);
   
   const handleMouseDown = () => {
     setIsClicked(true);
@@ -55,7 +55,7 @@ export const Form = () => {
           onClick={handleClick}
           onMouseUp={handleMouseUp}
         />
-        {showTooltip ? <div className="tooltip">Email sent</div> : ""}
+        {/* {showTooltip ? <div className="tooltip">Email sent</div> : ""} */}
       </form>
     </div>
   );

@@ -17,7 +17,7 @@ export const ProjectsPages = () => {
     if (projectsL) {
       setBlogs(projectsL);
     }
-  }, []);
+  }, [id]);
   const goBack = () => {
     window.history.back();
   };

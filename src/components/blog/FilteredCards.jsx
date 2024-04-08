@@ -1,4 +1,4 @@
-import React, { useParams, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./blog.css";
 import { blog } from "../../assets/data/data";
 import { AiOutlineTags, AiOutlineClockCircle } from "react-icons/ai";

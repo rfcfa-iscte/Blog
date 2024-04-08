@@ -16,7 +16,7 @@ export const BlogPages = () => {
     if (blogs) {
       setBlogs(blogs);
     }
-  }, []);
+  }, [id]);
 
   const goBack = () => {
     window.history.back();
