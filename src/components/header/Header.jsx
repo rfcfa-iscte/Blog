@@ -17,7 +17,6 @@ export const Header = () => {
 
   const toggleMenu = () => {
     setIsToggleIcon(!isToggleIcon);
-    window.scrollTo(0, 0);
   };
 
   return (
