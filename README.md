@@ -26,7 +26,7 @@ The project directory structure is organized as follows:
 
 ## Usage
 
-To view the website, simply visit https://blog-mocha-three-11.vercel.app.
+To view the website, simply visit https://rui-ferreira.vercel.app.
 
 ## Credits
 
