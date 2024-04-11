@@ -2,24 +2,29 @@
   padding: 100px 0;
   background: #0a101e;
 }
+
 .b-singlePage .right {
   margin-top: 30px;
 }
+
 .b-singlePage img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
+
 .b-singlePage h1 {
   font-size: 30px;
   font-weight: 500;
 }
+
 .b-singlePage p {
   margin: 20px 0;
   font-size: 18px;
   line-height: 2;
   text-transform: capitalize;
 }
+
 .b-singlePage .buttons {
   display: flex;
   justify-content: space-between;
@@ -32,15 +37,20 @@
 .b-singlePage .right {
   margin-top: 30px;
 }
+
 .b-singlePage .button {
   border: none;
 }
-.b-singlePage .title{
+
+.b-singlePage .title {
   color: #fff;
 }
+
 .b-singlePage .text {
   color: #fff;
+  text-transform: none;
 }
+
 .b-singlePage .button {
   background: #212121;
   border: 1px solid;
