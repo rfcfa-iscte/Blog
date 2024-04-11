@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export const Home = () => {
   const handleClick = () => {
-    window.location.href = "/projects";
+    window.location.href = "/about";
   };
   return (
     <>

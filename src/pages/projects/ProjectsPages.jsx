@@ -10,12 +10,12 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export const ProjectsPages = () => {
   const { id } = useParams();
-  const [projectsL, setBlogs] = useState(null);
+  const [projectsL, setProjects] = useState(null);
 
   useEffect(() => {
     let projectsL = projects.find((projectsL) => projectsL.id === parseInt(id));
     if (projectsL) {
-      setBlogs(projectsL);
+      setProjects(projectsL);
     }
   }, [id]);
   const goBack = () => {
@@ -53,7 +53,14 @@ export const ProjectsPages = () => {
               </div>
             </div>
             <h1 className="title">{projectsL.title}</h1>
-            <p className="text">{projectsL.text}</p>
+            <p className="text">
+              <h1>Description:</h1>
+            </p>
+            <p className="text">{projectsL.description}</p>
+            <p className="text">
+              <h1>Development:</h1>
+            </p>
+            <p className="text">{projectsL.project}</p>
             <p className="text">Author: {projectsL.author}</p>
             <div className="img">
               <img src={projectsL.cover} alt="" />

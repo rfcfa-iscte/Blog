@@ -23,7 +23,7 @@ export const Card = () => {
                   </div>
 
                   <h3>{item.title}</h3>
-                  <p>{item.desc.slice(0, 180)}...</p>
+                  <p>{item.description.slice(0, 180)}...</p>
                 </div>
               </Link>
             </div>
