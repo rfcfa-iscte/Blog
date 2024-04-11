@@ -6,7 +6,7 @@ import { FaGithub, FaYoutube } from "react-icons/fa";
 
 export const Footer = () => {
   const handleGithubClick = () => {
-    window.open("https://github.com/rfcfa-iscte", "_blank");
+    window.open("https://github.com/rfcfe", "_blank");
   };
   const handleLinkedInClick = () => {
     window.open("https://www.linkedin.com/in/ruifcferreira/", "_blank");
