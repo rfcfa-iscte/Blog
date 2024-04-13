@@ -62,8 +62,8 @@ export const ProjectsPages = () => {
             </p>
             <p className="text">{projectsL.project}</p>
             <p className="text">Author: {projectsL.author}</p>
-            <div className="img">
-              <img src={projectsL.cover} alt="" />
+            <div className="project-image">
+              <img src={projectsL.cover} alt="img" />
             </div>
           </div>
         </section>

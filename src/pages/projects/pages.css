@@ -1,12 +1,17 @@
 .p-singlePage {
   padding: 100px 0;
   background: #0a101e;
-  display: grid;
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: calc(100% - 400px);
+  margin: 0 auto;
 }
 
 .p-singlePage .buttons {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .p-singlePage .left {
@@ -19,9 +24,10 @@
   justify-content: flex-end;
 }
 
-.p-singlePage img {
-  width: 100%;
-  height: 100%;
+.project-image {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
   border-radius: 10px;
 }
 
