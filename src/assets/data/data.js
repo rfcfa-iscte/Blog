@@ -212,7 +212,7 @@ export const projects = [
     id: 3,
     title: "Iris Amarelo LDA. Website",
     desc: "This projects helps you track your pokedex completion progress.",
-    category: "Next.JS | Typescript | Tailwind | Facebook API",
+    category: "React | Facebook API",
     cover: "../images/projects/iris.jpg",
     text: "Still in production",
     description:
@@ -221,7 +221,7 @@ export const projects = [
       "The website was built using Next.js, a powerful React framework known for its performance and scalability, combined with Tailwind CSS for efficient styling and design. One of the standout features of the project was its seamless integration with Facebook's API to dynamically fetch and display photos from the company's official Facebook page. This integration provided visitors with a visual showcase of the company's completed projects, allowing them to browse through various photo albums and gain insight into the company's expertise and craftsmanship. Furthermore, the website served as a comprehensive resource for potential clients, offering detailed information about the company's services, areas of expertise, and past projects. Each project was showcased with high-quality images, detailed descriptions, and key metrics, highlighting the company's commitment to quality and excellence in construction. In terms of development, the project followed best practices in software engineering, including modular code organization, version control with Git, and continuous integration and deployment pipelines for automated testing and deployment. The use of Next.js and Tailwind CSS facilitated rapid development iterations, allowing for quick feedback and iteration based on client feedback and requirements. Overall, the website for the construction company represented a successful fusion of technology and design, providing a visually stunning and informative platform for showcasing the company's legacy, expertise, and commitment to excellence in construction.",
     link: "",
     author: "Rui Ferreira",
-    site: "https://iris-amarelo.vercel.app",
+    site: "",
   },
   {
     id: 4,
