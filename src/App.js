@@ -9,6 +9,7 @@ import { ProjectsPages } from "./pages/projects/ProjectsPages";
 import { BlogPages } from "./pages/blog/BlogPages";
 import { About } from "./pages/about/About";
 import { BlogFilteredPage } from "./pages/blog/BlogFilteredPage";
+import MouseAnimation from "./components/Mouse/MouseAnimation";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      {/* <MouseAnimation /> */}
     </>
   );
 };
