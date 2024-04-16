@@ -30,7 +30,7 @@ footer {
   color: hwb(0 59% 41%);
   font-size: 0.7rem;
   text-align: start;
-  
+
 }
 
 .social {
@@ -39,7 +39,8 @@ footer {
   list-style: none;
   padding: 0;
 }
-.copyright:hover{
+
+.copyright :hover {
   color: #ffffff;
   cursor: default;
 }

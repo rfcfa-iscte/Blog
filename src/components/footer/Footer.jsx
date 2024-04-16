@@ -23,7 +23,9 @@ export const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <div className="copyright">© Copyright 2024 Rui Ferreira</div>
+        <div className="copyright">
+          <span className="copyright-text">© Copyright 2024 Rui Ferreira</span>
+        </div>
         <ul className="social">
           <li>
             <AiFillLinkedin className="icon" onClick={handleLinkedInClick} />
