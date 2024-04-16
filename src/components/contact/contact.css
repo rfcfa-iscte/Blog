@@ -62,4 +62,7 @@ textarea[name="message"] {
     opacity: 1; 
     transition: opacity 0.3s ease;
   }
+  .title {
+    flex: 1; /* Allow the title section to grow and fill the available space */
+  }
   

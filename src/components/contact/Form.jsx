@@ -7,7 +7,7 @@ import Fade from "@mui/material/Fade";
 export const Form = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
-  const [tooltipContent, setTooltipContent] = useState('');
+  const [tooltipContent, setTooltipContent] = useState("");
 
   const handleMouseDown = () => {
     setIsClicked(true);
@@ -31,21 +31,19 @@ export const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setTooltipContent('Email Sent');
+          setTooltipContent("Email Sent");
           setShowTooltip(true);
           setTimeout(() => {
             setShowTooltip((prevState) => !prevState);
           }, 3000);
-          
         },
         (error) => {
           console.log(error.text);
-          setTooltipContent('Try Again Later');
+          setTooltipContent("Try Again Later");
           setShowTooltip(true);
           setTimeout(() => {
             setShowTooltip((prevState) => !prevState);
           }, 3000);
-          
         }
       );
   };

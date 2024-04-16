@@ -23,20 +23,21 @@ export const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <div className="container flex">
-          <p></p>
-          <div className="social">
-            <li>
-              <AiFillLinkedin className="icon" onClick={handleLinkedInClick} />
-              <FaGithub className="icon" onClick={handleGithubClick} />
-              <FaYoutube className="icon" onClick={handleYoutubeClick} />
-              <RiInstagramFill
-                className="icon"
-                onClick={handleInstagramClick}
-              />
-            </li>
-          </div>
-        </div>
+        <div className="copyright">© Copyright 2024 Rui Ferreira</div>
+        <ul className="social">
+          <li>
+            <AiFillLinkedin className="icon" onClick={handleLinkedInClick} />
+          </li>
+          <li>
+            <FaGithub className="icon" onClick={handleGithubClick} />
+          </li>
+          <li>
+            <FaYoutube className="icon" onClick={handleYoutubeClick} />
+          </li>
+          <li>
+            <RiInstagramFill className="icon" onClick={handleInstagramClick} />
+          </li>
+        </ul>
       </footer>
     </>
   );

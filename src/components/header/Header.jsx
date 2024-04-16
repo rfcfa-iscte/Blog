@@ -13,6 +13,7 @@ export const Header = () => {
   const [isToggleIcon, setIsToggleIcon] = useState(false);
   const handleClick = () => {
     window.scrollTo(0, 0);
+    setIsToggleIcon(false);
   };
 
   const toggleMenu = () => {
@@ -38,7 +39,7 @@ export const Header = () => {
                 <li key={link.id}>
                   {link.text.split(" ").map((word, index) => (
                     <span className={"header-container-menu-item"} key={index}>
-                      <Link to={link.url} onClick={toggleMenu}>
+                      <Link to={link.url} onClick={handleClick}>
                         {word}
                       </Link>
                     </span>

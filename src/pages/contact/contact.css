@@ -1,6 +1,18 @@
 textarea {
-    resize: vertical; 
-    width: 300px;
-    min-height: 100px; 
-    max-width: 100%; 
-  }
+  resize: vertical;
+  width: 300px;
+  min-height: 100px;
+  max-width: 100%;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
