@@ -1,8 +1,37 @@
-.about-title {
+.about-title,
+.about-title-resume,
+.about-title-publications,
+.about-title-technology {
   padding: 30px;
   margin-top: 100px;
   text-align: center;
   color: #fec544;
   font-size: 3rem;
   animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.about-title-resume,
+.about-title-publications {
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: entry;
+  animation-range-end: 600px;
+}
+.about-title-technology{
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: cover ;
+  animation-range-end: 300px;
+}
+
+@keyframes fade-in {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
+
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }

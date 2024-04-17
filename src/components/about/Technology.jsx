@@ -13,7 +13,6 @@ import { FaPhp } from "react-icons/fa";
 
 export const Technology = () => {
   return (
-    <div className="slide-in-top">
       <div className="programming-languages-section">
         <div className="icon-container">
           <FaJava size={50} className="programming-language-icon" />
@@ -28,6 +27,5 @@ export const Technology = () => {
           <DiMongodb size={50} className="programming-language-icon" />
         </div>
       </div>
-    </div>
   );
 };

@@ -12,11 +12,11 @@ export const About = () => {
       <div>
         <h1 className="about-title">About Me</h1>
         <Identification />
-        <h1 className="about-title">Resume</h1>
+        <h1 className="about-title-resume">Resume</h1>
         <Experience />
-        <h1 className="about-title">Publications</h1>
+        <h1 className="about-title-publications">Publications</h1>
         <Publications />
-        <h1 className="about-title">Technology Stack</h1>
+        <h1 className="about-title-technology">Technology Stack</h1>
         <Technology />
         <Footer />
       </div>

@@ -24,7 +24,6 @@ export const Publications = () => {
               background: "rgb(16,22,36)",
               color: "#fff",
               cursor: "pointer",
-              
             }}
             icon={
               <LibraryBooksIcon
