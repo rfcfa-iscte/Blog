@@ -42,27 +42,34 @@ textarea[name="message"] {
     height: 300px;
     overflow-y: auto;
 }
-.f-butt{
+
+.f-butt {
     cursor: pointer;
 }
+
 .clicked {
-    background-color: rgba(10,16,30);
+    background-color: rgba(10, 16, 30);
     color: #ffffff;
-     cursor: pointer;
+    cursor: pointer;
 }
+
 .tooltip {
     position: absolute;
     top: -40px;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.8); /* Tooltip background color */
-    color: #fff; /* Tooltip text color */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
-    opacity: 1; 
+    opacity: 1;
     transition: opacity 0.3s ease;
-  }
-  .title {
-    flex: 1; /* Allow the title section to grow and fill the available space */
-  }
-  
+}
+
+.title {
+    flex: 1;
+}
+
+.invalid {
+    border-color: red;
+}

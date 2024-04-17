@@ -53,12 +53,10 @@ export const Form = () => {
       {showTooltip ? (
         <div className="title">
           <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
+            <input type="text" id="user_name" name="user_name" />
+            <input type="email" id="user_email" name="user_email" />
+            <textarea id="message" name="message" />
+
             <Tooltip
               TransitionComponent={Fade}
               TransitionProps={{ timeout: 600 }}
